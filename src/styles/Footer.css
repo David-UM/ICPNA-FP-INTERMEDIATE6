@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.Footer {
+    width: 100%;
+    background-color: #0bd41bd7;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Bebas Neue', cursive;
+    height: 80px;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.Footer-text {
+    display: flex;
+    margin-left:  10px;  
+    float: left;
+    font-size: 35px;
+    color: azure;
+    height: 40px;
+    margin: auto 0 auto 15px;
+    text-align: center;
+}
+
+.Footer-information {
+    display: flex;
+    margin: auto 15px auto 0px;
+    float: right;
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Footer-logo {
+    border-right: 7px solid black ;
+    border-left: 7px solid black;
+    border-bottom: 7px double black;
+    border-top: 7px double black;
+    padding: 5px 0 0 5px;
+}
