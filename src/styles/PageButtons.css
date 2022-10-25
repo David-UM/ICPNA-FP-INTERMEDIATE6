@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.next, .previous {
+    background-color: black;
+    color: aliceblue;
+    font-size: 35px;
+    width: 200px;
+    margin: 0px;
+    height: 70px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+/* .previous:hover, .next:hover{
+
+} */
+
+.previous{
+  float: left;
+}
+.next {
+  float: right;
+}
