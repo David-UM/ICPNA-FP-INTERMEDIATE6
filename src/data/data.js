@@ -19,7 +19,11 @@ const data = [
 	},
 	{
 		tittle: 'Conclusion',
-		images: [],
+		images: [
+			'https://miro.medium.com/max/1400/1*XtbGwZ63Wk3pPCqvF7V6Tg.jpeg',
+			'https://mir-s3-cdn-cf.behance.net/projects/404/233b3776151497.Y3JvcCw4NjIsNjc1LDE2NCww.png',
+			'https://mir-s3-cdn-cf.behance.net/project_modules/fs/a75dc048610661.589d9674a40a0.png',
+		],
 	},
 ];
 
