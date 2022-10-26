@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<>
 			<footer className='Footer'>
-				<span className='Footer-text'>MADE BY David Urbano</span>
+				<span className='Footer-text'>David Urbano</span>
 				<img
 					src='https://raw.githubusercontent.com/David-UM/ICPNA-FP-INTERMEDIATE6/main/src/assets/TheBear.png'
 					alt='Bear logo'
