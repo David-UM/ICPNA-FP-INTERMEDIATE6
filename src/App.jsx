@@ -25,8 +25,17 @@ function App() {
 
 	return (
 		<div className='App'>
-			<PageButtons name='previous' handle={handlePrevious} number={number} />
-			<PageButtons name='next' handle={handleNext} number={number} />
+			{number == 1 || number == 2 ? (
+				<PageButtons name='previous' handle={handlePrevious} number={number} />
+			) : (
+				console.log('No previous page')
+			)}
+			{number == 0 || number == 1 ? (
+				<PageButtons name='next' handle={handleNext} number={number} />
+			) : (
+				console.log('No next page')
+			)}
+
 			<Presentation page={number} />
 			<Footer />
 		</div>
