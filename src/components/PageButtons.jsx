@@ -1,9 +1,9 @@
 import './../styles/PageButtons.css';
 
-const PageButtons = ({ name }) => {
+const PageButtons = ({ name, handle }) => {
 	return (
 		<>
-			<button onClick={() => console.log(name)} className={name}>
+			<button onClick={handle} className={name}>
 				{name}
 			</button>
 		</>

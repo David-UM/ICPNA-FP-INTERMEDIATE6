@@ -1,0 +1,24 @@
+crops
+farm
+forest
+forest fire
+higher
+wood
+plastic
+marine
+chemicals
+knowledge
+
+----------------------------------------------------
+Already
+yet
+have been
+I've lived
+going to
+will
+if
+must
+could
+might
+cant
+

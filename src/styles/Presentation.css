@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.TheH1 {
+    margin: 25px 0 60px 0; 
+    padding: 5px 10px;
+    font-size: 65px;
+    position: absolute;
+    
+    top: 0;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.55px;
+    border-bottom: 5px solid #000;
+}
+
+.images {
+    width: 450px;
+    height: 400px;
+    margin-top: 30%;
+    border: 10px double #0bd41bd7;
+    border-radius: 50px;
+}
+
+.images:hover {
+    width: 470px;
+    height: 420px;
+    margin: 30% 50px 50px 50px;
+    border: 10px double #000;
+    border-radius: 25px;
+}
+
+
+.page {
+    width: 100%;    
+    height: 300px;    
+    margin: 0px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    gap: 40px;    
+    margin: 0 auto;
+    padding: 20px 0px;
+}   
