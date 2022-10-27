@@ -1,14 +1,12 @@
 import './App.css';
 import { useState } from 'react';
-import PageButtons from './components/PageButtons';
-import Footer from './components/Footer';
-import Presentation from './pages/Presentation';
-
+import Diapositivas from './pages/Diapositivas';
+import Caratula from './pages/Caratula';
 function App() {
-	let [number, setNumber] = useState(0);
+	let [number, setNumber] = useState(1);
 
 	const handleNext = () => {
-		if (number >= 0 && number < 2) {
+		if (number >= 0 && number < 3) {
 			setNumber((number = number + 1));
 		} else {
 			console.log('Se paso de 3');
@@ -22,22 +20,17 @@ function App() {
 			setNumber((number = 0));
 		}
 	};
-
 	return (
 		<div className='App'>
-			{number == 1 || number == 2 ? (
-				<PageButtons name='previous' handle={handlePrevious} number={number} />
+			{number === 0 ? (
+				<Caratula handle={handleNext} />
 			) : (
-				console.log('No previous page')
+				<Diapositivas
+					number={number}
+					handleNext={handleNext}
+					handlePrevious={handlePrevious}
+				/>
 			)}
-			{number == 0 || number == 1 ? (
-				<PageButtons name='next' handle={handleNext} number={number} />
-			) : (
-				console.log('No next page')
-			)}
-
-			<Presentation page={number} />
-			<Footer />
 		</div>
 	);
 }

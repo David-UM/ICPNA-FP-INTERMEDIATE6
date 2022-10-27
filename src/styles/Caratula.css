@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+.Caratula-titulo {
+    display: flex;
+    width: 100%;
+    background-color: #aafcbc;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.Caratula-topic {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.Caratula-text {
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.Caratula-body {
+    display: flex;
+
+}
+
+.Caratula-body-names {
+    
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+
+}
+.Caratula-body-names h1 {
+    border-bottom: 4px solid #000;
+    width: 450px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DavidUrbano {
+    margin-top: 250px ;
+}
+
+.Caratula-body-button {
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+    display: inline;
+}
+
+.Caratula-image {
+    width: 500px;
+    margin: 20px 300px 0 300px;
+    
+
+}
+
+.Caratula-start {
+    margin: 0px 430px;
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 4px solid #0bd41bd7;
+    border-radius: 15px;
+}
+
+.Caratula-start:hover {
+    background-color: #0bd41bd7;
+  border: 5px double black;
+  color: #fff;
+}
