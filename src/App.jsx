@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Diapositivas from './pages/Diapositivas';
 import Caratula from './pages/Caratula';
 function App() {
-	let [number, setNumber] = useState(1);
+	let [number, setNumber] = useState(0);
 
 	const handleNext = () => {
 		if (number >= 0 && number < 3) {
